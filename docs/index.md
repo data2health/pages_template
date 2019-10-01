@@ -7,5 +7,6 @@ output: html_document
 value_and_vision: ""
 timeline: ""
 engagement: ""
+layout: splash
 ---
 

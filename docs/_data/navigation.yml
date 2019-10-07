@@ -2,6 +2,6 @@
 # main links
 main:
 - title: "Vision"
-  url: /#vision
+  url: "/#vision"
 - title: "Engagement"
-  url: /#engagement
+  url: "/#engagement"

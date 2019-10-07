@@ -1,0 +1,15 @@
+    
+# main links
+main:
+- title: "Vision"
+  url: #vision
+- title: "Engagement"
+  url: #engagement
+- title: "Code of Conduct"
+  url: /code_of_conduct/
+- title: "Contributors"
+  url: /contributors/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

@@ -5,10 +5,7 @@ author: "CD2H Labs"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  actions:
-    - label: cd2h.org/
-      url: http://labs.cd2h.org/
-excerpt: "Making discoverable translational expertise, services, and resources across the CTSA Program"
+#excerpt: "Making discoverable translational expertise, services, and resources across the CTSA Program"
 date: "10/1/2019"
 value_and_vision: 
   - title: "Value and Vision"
@@ -27,6 +24,6 @@ layout: splash
 <div class="grid__wrapper">
 {% for proj in projects %}
 <a href="{{proj.url}}"><h1>{{ proj.title }}</h1></a>
-<h2>{{ proj.tagline }}</h2>
+<p>{{ proj.tagline }}</p>
 {% endfor %}
 </div>

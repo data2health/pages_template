@@ -24,7 +24,7 @@ layout: splash
 {% for proj in projects %}
 {% assign proj_url = proj.url | relative_url %}
 
-<a href="{{proj_url}}"><h1>{{ proj.title }}</h1></a>
+<a href="{{proj_url}}"><h1>{{ proj.title }}</h2></a>
 <p>{{ proj.tagline }}</p>
 {% endfor %}
 </div>

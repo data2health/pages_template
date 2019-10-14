@@ -17,13 +17,14 @@ engagement:
 Signal your interest at <a href='https://cd2h.org/onboard'>cd2h.org/onboard</a>"
 layout: splash
 ---
-{% include feature_row %}
 
 {% assign projects = site.projects | sort: 'title' %}
 
 <div class="grid__wrapper">
 {% for proj in projects %}
-<a href="{{proj.url}}"><h1>{{ proj.title }}</h1></a>
+{% assign proj_url = proj_url | relative_url %}
+
+<a href="{{proj_url}}"><h1>{{ proj.title }}</h1></a>
 <p>{{ proj.tagline }}</p>
 {% endfor %}
 </div>

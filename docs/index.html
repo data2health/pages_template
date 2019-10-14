@@ -1,10 +1,13 @@
 ---
-title: "Science of Translational Science Platform"
-tagline: "Making discoverable translational expertise, services,<br> and resources across the CTSA Program"
+title: "CD2H Lab Projects"
+tagline: ""
 author: "CD2H Labs"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
+  actions:
+    - label: labs.cd2h.org/
+      url: http://labs.cd2h.org/
 excerpt: "Making discoverable translational expertise, services, and resources across the CTSA Program"
 date: "10/1/2019"
 value_and_vision: 
@@ -19,14 +22,11 @@ layout: splash
 ---
 {% include feature_row %}
 
+{% assign projects = site.projects %}
 
-{% include figure image_path="/assets/final_scits.png" alt="this is a placeholder image" caption="SCITS" %}
-
-<a name = "vision"></a>
-
-
-{% include feature_row id="value_and_vision" type = "center" %}
-
-<a name = "engagement"></a>
-
-{% include feature_row id="engagement" type = "center" %}
+<div class="grid__wrapper">
+{% for proj in projects %}
+<a href="{{proj.url}}"><h1>{{ proj.title }}</h1></a>
+<h2>{{ proj.tagline }}</h2>
+{% endfor %}
+</div>

@@ -1,12 +1,12 @@
 {% include feature_row %}
 
-{% if page.image_name %}
-{% capture temp_url %}/assets/{{page.image_name}}{% endcapture %}
-{% include figure image_path=temp_url%}
-{% endif %}
-
 <a name = "vision"></a>
 {% include feature_row id="value_and_vision" type = "center" %}
+
+{% if page.image_name %}
+{% capture temp_url %}/assets/{{page.image_name}}{% endcapture %}
+{% include figure image_path=page.image_name %}
+{% endif %}
 
 <a name = "engagement"></a>
 {% include feature_row id="engagement" type = "center" %}

@@ -20,6 +20,8 @@ layout: splash
 
 {% assign projects = site.projects | sort: 'title' %}
 
+<a name="projects"></a>
+
 <div class="grid__wrapper">
 {% for proj in projects %}
 {% assign proj_url = proj.url | relative_url %}

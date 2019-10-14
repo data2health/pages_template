@@ -1,7 +1,5 @@
     
 # main links
 main:
-- title: "Vision"
-  url: "/#vision"
-- title: "Engagement"
-  url: "/#engagement"
+- title: "Projects"
+  url: "/#projects"
